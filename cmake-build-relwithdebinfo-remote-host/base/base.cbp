@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="base"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\base\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base">
+				<Option output="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/libbase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 base"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base/fast">
+				<Option output="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/libbase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 base/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Thread.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Thread.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="zero_media_server" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
     <serverData>
       <paths name="Remote Host (7f224dc6-a50b-49a8-b02b-eec001e4a1c3)">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/tmp/tmp.dgzV3O5sJt" local="$PROJECT_DIR$" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-relwithdebinfo-remote-host" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="mdeio_server">
@@ -44,6 +48,14 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="zero_media_server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/project/zero_media_server" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

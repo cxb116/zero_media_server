@@ -1,0 +1,6 @@
+/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles/zero_media_server.dir
+/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles/edit_cache.dir
+/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/CMakeFiles/base.dir
+/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/CMakeFiles/edit_cache.dir
+/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -O3 -std=c++11 -O2 -g -DNDEBUG CMakeFiles/zero_media_server.dir/main.cpp.o -o zero_media_server  base/libbase.a -lpthread 
