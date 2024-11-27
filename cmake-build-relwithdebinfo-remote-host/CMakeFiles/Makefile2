@@ -65,15 +65,18 @@ CMAKE_BINARY_DIR = /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host
 # The main recursive "all" target.
 all: CMakeFiles/zero_media_server.dir/all
 all: base/all
+all: test/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: base/preinstall
+preinstall: test/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/zero_media_server.dir/clean
 clean: base/clean
+clean: test/clean
 .PHONY : clean
 
 #=============================================================================
@@ -92,18 +95,33 @@ base/clean: base/CMakeFiles/base.dir/clean
 .PHONY : base/clean
 
 #=============================================================================
+# Directory level rules for directory test
+
+# Recursive "all" directory target.
+test/all: test/CMakeFiles/test_thread.dir/all
+.PHONY : test/all
+
+# Recursive "preinstall" directory target.
+test/preinstall:
+.PHONY : test/preinstall
+
+# Recursive "clean" directory target.
+test/clean: test/CMakeFiles/test_thread.dir/clean
+.PHONY : test/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/zero_media_server.dir
 
 # All Build rule for target.
 CMakeFiles/zero_media_server.dir/all: base/CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zero_media_server.dir/build.make CMakeFiles/zero_media_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zero_media_server.dir/build.make CMakeFiles/zero_media_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=3,4 "Built target zero_media_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=14,15 "Built target zero_media_server"
 .PHONY : CMakeFiles/zero_media_server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/zero_media_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zero_media_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles 0
 .PHONY : CMakeFiles/zero_media_server.dir/rule
@@ -124,12 +142,12 @@ CMakeFiles/zero_media_server.dir/clean:
 base/CMakeFiles/base.dir/all:
 	$(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/depend
 	$(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=1,2 "Built target base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target base"
 .PHONY : base/CMakeFiles/base.dir/all
 
 # Build rule for subdir invocation for target.
 base/CMakeFiles/base.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base/CMakeFiles/base.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles 0
 .PHONY : base/CMakeFiles/base.dir/rule
@@ -142,6 +160,32 @@ base: base/CMakeFiles/base.dir/rule
 base/CMakeFiles/base.dir/clean:
 	$(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/clean
 .PHONY : base/CMakeFiles/base.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/test_thread.dir
+
+# All Build rule for target.
+test/CMakeFiles/test_thread.dir/all: base/CMakeFiles/base.dir/all
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/depend
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=12,13 "Built target test_thread"
+.PHONY : test/CMakeFiles/test_thread.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/test_thread.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_thread.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles 0
+.PHONY : test/CMakeFiles/test_thread.dir/rule
+
+# Convenience name for target.
+test_thread: test/CMakeFiles/test_thread.dir/rule
+.PHONY : test_thread
+
+# clean rule for target.
+test/CMakeFiles/test_thread.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/clean
+.PHONY : test/CMakeFiles/test_thread.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

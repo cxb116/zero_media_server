@@ -1,0 +1,8 @@
+//
+// Created by cbb on 2024/11/24.
+//
+
+#ifndef ZERO_MEDIA_SERVER_SEMAPHORE_H
+#define ZERO_MEDIA_SERVER_SEMAPHORE_H
+
+#endif //ZERO_MEDIA_SERVER_SEMAPHORE_H

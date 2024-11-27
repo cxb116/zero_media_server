@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test//CMakeFiles/progress.marks
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,81 +113,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named zero_media_server
+# Convenience name for target.
+test/CMakeFiles/test_thread.dir/rule:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_thread.dir/rule
+.PHONY : test/CMakeFiles/test_thread.dir/rule
 
-# Build rule for target.
-zero_media_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zero_media_server
-.PHONY : zero_media_server
-
-# fast build rule for target.
-zero_media_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zero_media_server.dir/build.make CMakeFiles/zero_media_server.dir/build
-.PHONY : zero_media_server/fast
-
-#=============================================================================
-# Target rules for targets named base
-
-# Build rule for target.
-base: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base
-.PHONY : base
-
-# fast build rule for target.
-base/fast:
-	$(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/build
-.PHONY : base/fast
-
-#=============================================================================
-# Target rules for targets named test_thread
-
-# Build rule for target.
-test_thread: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_thread
+# Convenience name for target.
+test_thread: test/CMakeFiles/test_thread.dir/rule
 .PHONY : test_thread
 
 # fast build rule for target.
 test_thread/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/build
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/build
 .PHONY : test_thread/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+Test_Thread.o: Test_Thread.cpp.o
+.PHONY : Test_Thread.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zero_media_server.dir/build.make CMakeFiles/zero_media_server.dir/main.cpp.o
-.PHONY : main.cpp.o
+Test_Thread.cpp.o:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/Test_Thread.cpp.o
+.PHONY : Test_Thread.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+Test_Thread.i: Test_Thread.cpp.i
+.PHONY : Test_Thread.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zero_media_server.dir/build.make CMakeFiles/zero_media_server.dir/main.cpp.i
-.PHONY : main.cpp.i
+Test_Thread.cpp.i:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/Test_Thread.cpp.i
+.PHONY : Test_Thread.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Test_Thread.s: Test_Thread.cpp.s
+.PHONY : Test_Thread.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zero_media_server.dir/build.make CMakeFiles/zero_media_server.dir/main.cpp.s
-.PHONY : main.cpp.s
+Test_Thread.cpp.s:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/Test_Thread.cpp.s
+.PHONY : Test_Thread.cpp.s
 
 # Help Target
 help:
@@ -198,12 +173,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... base"
 	@echo "... test_thread"
-	@echo "... zero_media_server"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Test_Thread.o"
+	@echo "... Test_Thread.i"
+	@echo "... Test_Thread.s"
 .PHONY : help
 
 
@@ -215,6 +188,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

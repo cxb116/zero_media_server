@@ -5,7 +5,7 @@
 		<Option title="base"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\base\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\base\;CMake Files\test\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base"/>
@@ -62,10 +62,64 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/Logger.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/Logger.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerChannel.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerChannel.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerStream.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerStream.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerWriter.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerWriter.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Buffer.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Buffer.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/File.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/File.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Path.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Path.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/String.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/String.h">
+			<Option target="base"/>
+		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Thread.cpp">
 			<Option target="base"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Thread.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/TimeClock.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/TimeClock.h">
 			<Option target="base"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/CMakeLists.txt">
@@ -73,6 +127,9 @@
 		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\base\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

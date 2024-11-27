@@ -1,2 +1,2 @@
-/usr/bin/ar qc libbase.a CMakeFiles/base.dir/utils/Thread.cpp.o
+/usr/bin/ar qc libbase.a CMakeFiles/base.dir/utils/Buffer.cpp.o CMakeFiles/base.dir/utils/File.cpp.o CMakeFiles/base.dir/utils/Path.cpp.o CMakeFiles/base.dir/utils/String.cpp.o CMakeFiles/base.dir/utils/Thread.cpp.o CMakeFiles/base.dir/utils/TimeClock.cpp.o CMakeFiles/base.dir/log/Logger.cpp.o CMakeFiles/base.dir/log/LoggerChannel.cpp.o CMakeFiles/base.dir/log/LoggerStream.cpp.o CMakeFiles/base.dir/log/LoggerWriter.cpp.o
 /usr/bin/ranlib libbase.a
