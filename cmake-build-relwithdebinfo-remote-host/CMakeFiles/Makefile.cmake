@@ -135,5 +135,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/zero_media_server.dir/DependInfo.cmake"
   "base/CMakeFiles/base.dir/DependInfo.cmake"
-  "test/CMakeFiles/test_thread.dir/DependInfo.cmake"
+  "test/CMakeFiles/tests.dir/DependInfo.cmake"
   )

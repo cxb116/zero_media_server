@@ -140,101 +140,29 @@ base/fast:
 	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/build
 .PHONY : base/fast
 
-log/Logger.o: log/Logger.cpp.o
-.PHONY : log/Logger.o
+thread/TaskExecutor.o: thread/TaskExecutor.cpp.o
+.PHONY : thread/TaskExecutor.o
 
 # target to build an object file
-log/Logger.cpp.o:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/Logger.cpp.o
-.PHONY : log/Logger.cpp.o
+thread/TaskExecutor.cpp.o:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/thread/TaskExecutor.cpp.o
+.PHONY : thread/TaskExecutor.cpp.o
 
-log/Logger.i: log/Logger.cpp.i
-.PHONY : log/Logger.i
-
-# target to preprocess a source file
-log/Logger.cpp.i:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/Logger.cpp.i
-.PHONY : log/Logger.cpp.i
-
-log/Logger.s: log/Logger.cpp.s
-.PHONY : log/Logger.s
-
-# target to generate assembly for a file
-log/Logger.cpp.s:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/Logger.cpp.s
-.PHONY : log/Logger.cpp.s
-
-log/LoggerChannel.o: log/LoggerChannel.cpp.o
-.PHONY : log/LoggerChannel.o
-
-# target to build an object file
-log/LoggerChannel.cpp.o:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/LoggerChannel.cpp.o
-.PHONY : log/LoggerChannel.cpp.o
-
-log/LoggerChannel.i: log/LoggerChannel.cpp.i
-.PHONY : log/LoggerChannel.i
+thread/TaskExecutor.i: thread/TaskExecutor.cpp.i
+.PHONY : thread/TaskExecutor.i
 
 # target to preprocess a source file
-log/LoggerChannel.cpp.i:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/LoggerChannel.cpp.i
-.PHONY : log/LoggerChannel.cpp.i
+thread/TaskExecutor.cpp.i:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/thread/TaskExecutor.cpp.i
+.PHONY : thread/TaskExecutor.cpp.i
 
-log/LoggerChannel.s: log/LoggerChannel.cpp.s
-.PHONY : log/LoggerChannel.s
-
-# target to generate assembly for a file
-log/LoggerChannel.cpp.s:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/LoggerChannel.cpp.s
-.PHONY : log/LoggerChannel.cpp.s
-
-log/LoggerStream.o: log/LoggerStream.cpp.o
-.PHONY : log/LoggerStream.o
-
-# target to build an object file
-log/LoggerStream.cpp.o:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/LoggerStream.cpp.o
-.PHONY : log/LoggerStream.cpp.o
-
-log/LoggerStream.i: log/LoggerStream.cpp.i
-.PHONY : log/LoggerStream.i
-
-# target to preprocess a source file
-log/LoggerStream.cpp.i:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/LoggerStream.cpp.i
-.PHONY : log/LoggerStream.cpp.i
-
-log/LoggerStream.s: log/LoggerStream.cpp.s
-.PHONY : log/LoggerStream.s
+thread/TaskExecutor.s: thread/TaskExecutor.cpp.s
+.PHONY : thread/TaskExecutor.s
 
 # target to generate assembly for a file
-log/LoggerStream.cpp.s:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/LoggerStream.cpp.s
-.PHONY : log/LoggerStream.cpp.s
-
-log/LoggerWriter.o: log/LoggerWriter.cpp.o
-.PHONY : log/LoggerWriter.o
-
-# target to build an object file
-log/LoggerWriter.cpp.o:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/LoggerWriter.cpp.o
-.PHONY : log/LoggerWriter.cpp.o
-
-log/LoggerWriter.i: log/LoggerWriter.cpp.i
-.PHONY : log/LoggerWriter.i
-
-# target to preprocess a source file
-log/LoggerWriter.cpp.i:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/LoggerWriter.cpp.i
-.PHONY : log/LoggerWriter.cpp.i
-
-log/LoggerWriter.s: log/LoggerWriter.cpp.s
-.PHONY : log/LoggerWriter.s
-
-# target to generate assembly for a file
-log/LoggerWriter.cpp.s:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/log/LoggerWriter.cpp.s
-.PHONY : log/LoggerWriter.cpp.s
+thread/TaskExecutor.cpp.s:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/thread/TaskExecutor.cpp.s
+.PHONY : thread/TaskExecutor.cpp.s
 
 utils/Buffer.o: utils/Buffer.cpp.o
 .PHONY : utils/Buffer.o
@@ -260,29 +188,53 @@ utils/Buffer.cpp.s:
 	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/Buffer.cpp.s
 .PHONY : utils/Buffer.cpp.s
 
-utils/File.o: utils/File.cpp.o
-.PHONY : utils/File.o
+utils/Logger.o: utils/Logger.cpp.o
+.PHONY : utils/Logger.o
 
 # target to build an object file
-utils/File.cpp.o:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/File.cpp.o
-.PHONY : utils/File.cpp.o
+utils/Logger.cpp.o:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/Logger.cpp.o
+.PHONY : utils/Logger.cpp.o
 
-utils/File.i: utils/File.cpp.i
-.PHONY : utils/File.i
+utils/Logger.i: utils/Logger.cpp.i
+.PHONY : utils/Logger.i
 
 # target to preprocess a source file
-utils/File.cpp.i:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/File.cpp.i
-.PHONY : utils/File.cpp.i
+utils/Logger.cpp.i:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/Logger.cpp.i
+.PHONY : utils/Logger.cpp.i
 
-utils/File.s: utils/File.cpp.s
-.PHONY : utils/File.s
+utils/Logger.s: utils/Logger.cpp.s
+.PHONY : utils/Logger.s
 
 # target to generate assembly for a file
-utils/File.cpp.s:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/File.cpp.s
-.PHONY : utils/File.cpp.s
+utils/Logger.cpp.s:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/Logger.cpp.s
+.PHONY : utils/Logger.cpp.s
+
+utils/NoticeCenter.o: utils/NoticeCenter.cpp.o
+.PHONY : utils/NoticeCenter.o
+
+# target to build an object file
+utils/NoticeCenter.cpp.o:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/NoticeCenter.cpp.o
+.PHONY : utils/NoticeCenter.cpp.o
+
+utils/NoticeCenter.i: utils/NoticeCenter.cpp.i
+.PHONY : utils/NoticeCenter.i
+
+# target to preprocess a source file
+utils/NoticeCenter.cpp.i:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/NoticeCenter.cpp.i
+.PHONY : utils/NoticeCenter.cpp.i
+
+utils/NoticeCenter.s: utils/NoticeCenter.cpp.s
+.PHONY : utils/NoticeCenter.s
+
+# target to generate assembly for a file
+utils/NoticeCenter.cpp.s:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/NoticeCenter.cpp.s
+.PHONY : utils/NoticeCenter.cpp.s
 
 utils/Path.o: utils/Path.cpp.o
 .PHONY : utils/Path.o
@@ -308,54 +260,6 @@ utils/Path.cpp.s:
 	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/Path.cpp.s
 .PHONY : utils/Path.cpp.s
 
-utils/String.o: utils/String.cpp.o
-.PHONY : utils/String.o
-
-# target to build an object file
-utils/String.cpp.o:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/String.cpp.o
-.PHONY : utils/String.cpp.o
-
-utils/String.i: utils/String.cpp.i
-.PHONY : utils/String.i
-
-# target to preprocess a source file
-utils/String.cpp.i:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/String.cpp.i
-.PHONY : utils/String.cpp.i
-
-utils/String.s: utils/String.cpp.s
-.PHONY : utils/String.s
-
-# target to generate assembly for a file
-utils/String.cpp.s:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/String.cpp.s
-.PHONY : utils/String.cpp.s
-
-utils/Thread.o: utils/Thread.cpp.o
-.PHONY : utils/Thread.o
-
-# target to build an object file
-utils/Thread.cpp.o:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/Thread.cpp.o
-.PHONY : utils/Thread.cpp.o
-
-utils/Thread.i: utils/Thread.cpp.i
-.PHONY : utils/Thread.i
-
-# target to preprocess a source file
-utils/Thread.cpp.i:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/Thread.cpp.i
-.PHONY : utils/Thread.cpp.i
-
-utils/Thread.s: utils/Thread.cpp.s
-.PHONY : utils/Thread.s
-
-# target to generate assembly for a file
-utils/Thread.cpp.s:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/Thread.cpp.s
-.PHONY : utils/Thread.cpp.s
-
 utils/TimeClock.o: utils/TimeClock.cpp.o
 .PHONY : utils/TimeClock.o
 
@@ -380,6 +284,30 @@ utils/TimeClock.cpp.s:
 	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/TimeClock.cpp.s
 .PHONY : utils/TimeClock.cpp.s
 
+utils/Util.o: utils/Util.cpp.o
+.PHONY : utils/Util.o
+
+# target to build an object file
+utils/Util.cpp.o:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/Util.cpp.o
+.PHONY : utils/Util.cpp.o
+
+utils/Util.i: utils/Util.cpp.i
+.PHONY : utils/Util.i
+
+# target to preprocess a source file
+utils/Util.cpp.i:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/Util.cpp.i
+.PHONY : utils/Util.cpp.i
+
+utils/Util.s: utils/Util.cpp.s
+.PHONY : utils/Util.s
+
+# target to generate assembly for a file
+utils/Util.cpp.s:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/base.dir/build.make base/CMakeFiles/base.dir/utils/Util.cpp.s
+.PHONY : utils/Util.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -390,36 +318,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... base"
-	@echo "... log/Logger.o"
-	@echo "... log/Logger.i"
-	@echo "... log/Logger.s"
-	@echo "... log/LoggerChannel.o"
-	@echo "... log/LoggerChannel.i"
-	@echo "... log/LoggerChannel.s"
-	@echo "... log/LoggerStream.o"
-	@echo "... log/LoggerStream.i"
-	@echo "... log/LoggerStream.s"
-	@echo "... log/LoggerWriter.o"
-	@echo "... log/LoggerWriter.i"
-	@echo "... log/LoggerWriter.s"
+	@echo "... thread/TaskExecutor.o"
+	@echo "... thread/TaskExecutor.i"
+	@echo "... thread/TaskExecutor.s"
 	@echo "... utils/Buffer.o"
 	@echo "... utils/Buffer.i"
 	@echo "... utils/Buffer.s"
-	@echo "... utils/File.o"
-	@echo "... utils/File.i"
-	@echo "... utils/File.s"
+	@echo "... utils/Logger.o"
+	@echo "... utils/Logger.i"
+	@echo "... utils/Logger.s"
+	@echo "... utils/NoticeCenter.o"
+	@echo "... utils/NoticeCenter.i"
+	@echo "... utils/NoticeCenter.s"
 	@echo "... utils/Path.o"
 	@echo "... utils/Path.i"
 	@echo "... utils/Path.s"
-	@echo "... utils/String.o"
-	@echo "... utils/String.i"
-	@echo "... utils/String.s"
-	@echo "... utils/Thread.o"
-	@echo "... utils/Thread.i"
-	@echo "... utils/Thread.s"
 	@echo "... utils/TimeClock.o"
 	@echo "... utils/TimeClock.i"
 	@echo "... utils/TimeClock.s"
+	@echo "... utils/Util.o"
+	@echo "... utils/Util.i"
+	@echo "... utils/Util.s"
 .PHONY : help
 
 

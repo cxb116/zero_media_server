@@ -62,28 +62,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/Logger.cpp">
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/thread/TaskExecutor.cpp">
 			<Option target="base"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/Logger.h">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerChannel.cpp">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerChannel.h">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerStream.cpp">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerStream.h">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerWriter.cpp">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerWriter.h">
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/thread/TaskExecutor.h">
 			<Option target="base"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Buffer.cpp">
@@ -92,10 +74,19 @@
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Buffer.h">
 			<Option target="base"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/File.cpp">
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Function_traits.h">
 			<Option target="base"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/File.h">
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Logger.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Logger.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/NoticeCenter.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/NoticeCenter.h">
 			<Option target="base"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Path.cpp">
@@ -104,22 +95,16 @@
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Path.h">
 			<Option target="base"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/String.cpp">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/String.h">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Thread.cpp">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Thread.h">
-			<Option target="base"/>
-		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/TimeClock.cpp">
 			<Option target="base"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/TimeClock.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Util.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Util.h">
 			<Option target="base"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/CMakeLists.txt">

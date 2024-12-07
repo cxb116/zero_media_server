@@ -9,8 +9,8 @@ set(LINK_LIB_LIST base)
 add_subdirectory(base)
 add_subdirectory(test)
 
-add_executable(zero_media_server main.cpp)
-target_link_libraries(zero_media_server ${LINK_LIB_LIST}  pthread)
+add_executable(main main.cpp)
+target_link_libraries(main ${LINK_LIB_LIST}  pthread)
 # 启用测试支持
 enable_testing()
 

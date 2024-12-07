@@ -135,8 +135,8 @@
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="test_thread">
-				<Option output="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/test_thread" prefix_auto="0" extension_auto="0"/>
+			<Target title="tests">
+				<Option output="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/tests" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -151,14 +151,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/Makefile&quot;  VERBOSE=1 test_thread"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/Makefile&quot;  VERBOSE=1 tests"/>
 					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="test_thread/fast">
-				<Option output="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/test_thread" prefix_auto="0" extension_auto="0"/>
+			<Target title="tests/fast">
+				<Option output="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/tests" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -173,35 +173,17 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/Makefile&quot;  VERBOSE=1 test_thread/fast"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/Makefile&quot;  VERBOSE=1 tests/fast"/>
 					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/Logger.cpp">
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/thread/TaskExecutor.cpp">
 			<Option target="base"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/Logger.h">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerChannel.cpp">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerChannel.h">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerStream.cpp">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerStream.h">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerWriter.cpp">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/log/LoggerWriter.h">
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/thread/TaskExecutor.h">
 			<Option target="base"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Buffer.cpp">
@@ -210,10 +192,19 @@
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Buffer.h">
 			<Option target="base"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/File.cpp">
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Function_traits.h">
 			<Option target="base"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/File.h">
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Logger.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Logger.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/NoticeCenter.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/NoticeCenter.h">
 			<Option target="base"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Path.cpp">
@@ -222,29 +213,23 @@
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Path.h">
 			<Option target="base"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/String.cpp">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/String.h">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Thread.cpp">
-			<Option target="base"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Thread.h">
-			<Option target="base"/>
-		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/TimeClock.cpp">
 			<Option target="base"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/TimeClock.h">
 			<Option target="base"/>
 		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Util.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/base/utils/Util.h">
+			<Option target="base"/>
+		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/main.cpp">
 			<Option target="zero_media_server"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.dgzV3O5sJt/test/Test_Thread.cpp">
-			<Option target="test_thread"/>
+		<Unit filename="/tmp/tmp.dgzV3O5sJt/test/Test_Logger.cpp">
+			<Option target="tests"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.dgzV3O5sJt/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

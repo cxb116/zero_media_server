@@ -83,24 +83,38 @@ base/CMakeFiles/base.dir/utils/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/utils/Buffer.cpp.s"
 	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/utils/Buffer.cpp -o CMakeFiles/base.dir/utils/Buffer.cpp.s
 
-base/CMakeFiles/base.dir/utils/File.cpp.o: base/CMakeFiles/base.dir/flags.make
-base/CMakeFiles/base.dir/utils/File.cpp.o: /tmp/tmp.dgzV3O5sJt/base/utils/File.cpp
-base/CMakeFiles/base.dir/utils/File.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object base/CMakeFiles/base.dir/utils/File.cpp.o"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/utils/File.cpp.o -MF CMakeFiles/base.dir/utils/File.cpp.o.d -o CMakeFiles/base.dir/utils/File.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/utils/File.cpp
+base/CMakeFiles/base.dir/utils/Logger.cpp.o: base/CMakeFiles/base.dir/flags.make
+base/CMakeFiles/base.dir/utils/Logger.cpp.o: /tmp/tmp.dgzV3O5sJt/base/utils/Logger.cpp
+base/CMakeFiles/base.dir/utils/Logger.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object base/CMakeFiles/base.dir/utils/Logger.cpp.o"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/utils/Logger.cpp.o -MF CMakeFiles/base.dir/utils/Logger.cpp.o.d -o CMakeFiles/base.dir/utils/Logger.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/utils/Logger.cpp
 
-base/CMakeFiles/base.dir/utils/File.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base.dir/utils/File.cpp.i"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dgzV3O5sJt/base/utils/File.cpp > CMakeFiles/base.dir/utils/File.cpp.i
+base/CMakeFiles/base.dir/utils/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base.dir/utils/Logger.cpp.i"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dgzV3O5sJt/base/utils/Logger.cpp > CMakeFiles/base.dir/utils/Logger.cpp.i
 
-base/CMakeFiles/base.dir/utils/File.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/utils/File.cpp.s"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/utils/File.cpp -o CMakeFiles/base.dir/utils/File.cpp.s
+base/CMakeFiles/base.dir/utils/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/utils/Logger.cpp.s"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/utils/Logger.cpp -o CMakeFiles/base.dir/utils/Logger.cpp.s
+
+base/CMakeFiles/base.dir/utils/NoticeCenter.cpp.o: base/CMakeFiles/base.dir/flags.make
+base/CMakeFiles/base.dir/utils/NoticeCenter.cpp.o: /tmp/tmp.dgzV3O5sJt/base/utils/NoticeCenter.cpp
+base/CMakeFiles/base.dir/utils/NoticeCenter.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object base/CMakeFiles/base.dir/utils/NoticeCenter.cpp.o"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/utils/NoticeCenter.cpp.o -MF CMakeFiles/base.dir/utils/NoticeCenter.cpp.o.d -o CMakeFiles/base.dir/utils/NoticeCenter.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/utils/NoticeCenter.cpp
+
+base/CMakeFiles/base.dir/utils/NoticeCenter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base.dir/utils/NoticeCenter.cpp.i"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dgzV3O5sJt/base/utils/NoticeCenter.cpp > CMakeFiles/base.dir/utils/NoticeCenter.cpp.i
+
+base/CMakeFiles/base.dir/utils/NoticeCenter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/utils/NoticeCenter.cpp.s"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/utils/NoticeCenter.cpp -o CMakeFiles/base.dir/utils/NoticeCenter.cpp.s
 
 base/CMakeFiles/base.dir/utils/Path.cpp.o: base/CMakeFiles/base.dir/flags.make
 base/CMakeFiles/base.dir/utils/Path.cpp.o: /tmp/tmp.dgzV3O5sJt/base/utils/Path.cpp
 base/CMakeFiles/base.dir/utils/Path.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object base/CMakeFiles/base.dir/utils/Path.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object base/CMakeFiles/base.dir/utils/Path.cpp.o"
 	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/utils/Path.cpp.o -MF CMakeFiles/base.dir/utils/Path.cpp.o.d -o CMakeFiles/base.dir/utils/Path.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/utils/Path.cpp
 
 base/CMakeFiles/base.dir/utils/Path.cpp.i: cmake_force
@@ -111,38 +125,10 @@ base/CMakeFiles/base.dir/utils/Path.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/utils/Path.cpp.s"
 	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/utils/Path.cpp -o CMakeFiles/base.dir/utils/Path.cpp.s
 
-base/CMakeFiles/base.dir/utils/String.cpp.o: base/CMakeFiles/base.dir/flags.make
-base/CMakeFiles/base.dir/utils/String.cpp.o: /tmp/tmp.dgzV3O5sJt/base/utils/String.cpp
-base/CMakeFiles/base.dir/utils/String.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object base/CMakeFiles/base.dir/utils/String.cpp.o"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/utils/String.cpp.o -MF CMakeFiles/base.dir/utils/String.cpp.o.d -o CMakeFiles/base.dir/utils/String.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/utils/String.cpp
-
-base/CMakeFiles/base.dir/utils/String.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base.dir/utils/String.cpp.i"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dgzV3O5sJt/base/utils/String.cpp > CMakeFiles/base.dir/utils/String.cpp.i
-
-base/CMakeFiles/base.dir/utils/String.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/utils/String.cpp.s"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/utils/String.cpp -o CMakeFiles/base.dir/utils/String.cpp.s
-
-base/CMakeFiles/base.dir/utils/Thread.cpp.o: base/CMakeFiles/base.dir/flags.make
-base/CMakeFiles/base.dir/utils/Thread.cpp.o: /tmp/tmp.dgzV3O5sJt/base/utils/Thread.cpp
-base/CMakeFiles/base.dir/utils/Thread.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object base/CMakeFiles/base.dir/utils/Thread.cpp.o"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/utils/Thread.cpp.o -MF CMakeFiles/base.dir/utils/Thread.cpp.o.d -o CMakeFiles/base.dir/utils/Thread.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/utils/Thread.cpp
-
-base/CMakeFiles/base.dir/utils/Thread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base.dir/utils/Thread.cpp.i"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dgzV3O5sJt/base/utils/Thread.cpp > CMakeFiles/base.dir/utils/Thread.cpp.i
-
-base/CMakeFiles/base.dir/utils/Thread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/utils/Thread.cpp.s"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/utils/Thread.cpp -o CMakeFiles/base.dir/utils/Thread.cpp.s
-
 base/CMakeFiles/base.dir/utils/TimeClock.cpp.o: base/CMakeFiles/base.dir/flags.make
 base/CMakeFiles/base.dir/utils/TimeClock.cpp.o: /tmp/tmp.dgzV3O5sJt/base/utils/TimeClock.cpp
 base/CMakeFiles/base.dir/utils/TimeClock.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object base/CMakeFiles/base.dir/utils/TimeClock.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object base/CMakeFiles/base.dir/utils/TimeClock.cpp.o"
 	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/utils/TimeClock.cpp.o -MF CMakeFiles/base.dir/utils/TimeClock.cpp.o.d -o CMakeFiles/base.dir/utils/TimeClock.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/utils/TimeClock.cpp
 
 base/CMakeFiles/base.dir/utils/TimeClock.cpp.i: cmake_force
@@ -153,91 +139,57 @@ base/CMakeFiles/base.dir/utils/TimeClock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/utils/TimeClock.cpp.s"
 	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/utils/TimeClock.cpp -o CMakeFiles/base.dir/utils/TimeClock.cpp.s
 
-base/CMakeFiles/base.dir/log/Logger.cpp.o: base/CMakeFiles/base.dir/flags.make
-base/CMakeFiles/base.dir/log/Logger.cpp.o: /tmp/tmp.dgzV3O5sJt/base/log/Logger.cpp
-base/CMakeFiles/base.dir/log/Logger.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object base/CMakeFiles/base.dir/log/Logger.cpp.o"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/log/Logger.cpp.o -MF CMakeFiles/base.dir/log/Logger.cpp.o.d -o CMakeFiles/base.dir/log/Logger.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/log/Logger.cpp
+base/CMakeFiles/base.dir/utils/Util.cpp.o: base/CMakeFiles/base.dir/flags.make
+base/CMakeFiles/base.dir/utils/Util.cpp.o: /tmp/tmp.dgzV3O5sJt/base/utils/Util.cpp
+base/CMakeFiles/base.dir/utils/Util.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object base/CMakeFiles/base.dir/utils/Util.cpp.o"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/utils/Util.cpp.o -MF CMakeFiles/base.dir/utils/Util.cpp.o.d -o CMakeFiles/base.dir/utils/Util.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/utils/Util.cpp
 
-base/CMakeFiles/base.dir/log/Logger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base.dir/log/Logger.cpp.i"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dgzV3O5sJt/base/log/Logger.cpp > CMakeFiles/base.dir/log/Logger.cpp.i
+base/CMakeFiles/base.dir/utils/Util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base.dir/utils/Util.cpp.i"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dgzV3O5sJt/base/utils/Util.cpp > CMakeFiles/base.dir/utils/Util.cpp.i
 
-base/CMakeFiles/base.dir/log/Logger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/log/Logger.cpp.s"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/log/Logger.cpp -o CMakeFiles/base.dir/log/Logger.cpp.s
+base/CMakeFiles/base.dir/utils/Util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/utils/Util.cpp.s"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/utils/Util.cpp -o CMakeFiles/base.dir/utils/Util.cpp.s
 
-base/CMakeFiles/base.dir/log/LoggerChannel.cpp.o: base/CMakeFiles/base.dir/flags.make
-base/CMakeFiles/base.dir/log/LoggerChannel.cpp.o: /tmp/tmp.dgzV3O5sJt/base/log/LoggerChannel.cpp
-base/CMakeFiles/base.dir/log/LoggerChannel.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object base/CMakeFiles/base.dir/log/LoggerChannel.cpp.o"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/log/LoggerChannel.cpp.o -MF CMakeFiles/base.dir/log/LoggerChannel.cpp.o.d -o CMakeFiles/base.dir/log/LoggerChannel.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/log/LoggerChannel.cpp
+base/CMakeFiles/base.dir/thread/TaskExecutor.cpp.o: base/CMakeFiles/base.dir/flags.make
+base/CMakeFiles/base.dir/thread/TaskExecutor.cpp.o: /tmp/tmp.dgzV3O5sJt/base/thread/TaskExecutor.cpp
+base/CMakeFiles/base.dir/thread/TaskExecutor.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object base/CMakeFiles/base.dir/thread/TaskExecutor.cpp.o"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/thread/TaskExecutor.cpp.o -MF CMakeFiles/base.dir/thread/TaskExecutor.cpp.o.d -o CMakeFiles/base.dir/thread/TaskExecutor.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/thread/TaskExecutor.cpp
 
-base/CMakeFiles/base.dir/log/LoggerChannel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base.dir/log/LoggerChannel.cpp.i"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dgzV3O5sJt/base/log/LoggerChannel.cpp > CMakeFiles/base.dir/log/LoggerChannel.cpp.i
+base/CMakeFiles/base.dir/thread/TaskExecutor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base.dir/thread/TaskExecutor.cpp.i"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dgzV3O5sJt/base/thread/TaskExecutor.cpp > CMakeFiles/base.dir/thread/TaskExecutor.cpp.i
 
-base/CMakeFiles/base.dir/log/LoggerChannel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/log/LoggerChannel.cpp.s"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/log/LoggerChannel.cpp -o CMakeFiles/base.dir/log/LoggerChannel.cpp.s
-
-base/CMakeFiles/base.dir/log/LoggerStream.cpp.o: base/CMakeFiles/base.dir/flags.make
-base/CMakeFiles/base.dir/log/LoggerStream.cpp.o: /tmp/tmp.dgzV3O5sJt/base/log/LoggerStream.cpp
-base/CMakeFiles/base.dir/log/LoggerStream.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object base/CMakeFiles/base.dir/log/LoggerStream.cpp.o"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/log/LoggerStream.cpp.o -MF CMakeFiles/base.dir/log/LoggerStream.cpp.o.d -o CMakeFiles/base.dir/log/LoggerStream.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/log/LoggerStream.cpp
-
-base/CMakeFiles/base.dir/log/LoggerStream.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base.dir/log/LoggerStream.cpp.i"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dgzV3O5sJt/base/log/LoggerStream.cpp > CMakeFiles/base.dir/log/LoggerStream.cpp.i
-
-base/CMakeFiles/base.dir/log/LoggerStream.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/log/LoggerStream.cpp.s"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/log/LoggerStream.cpp -o CMakeFiles/base.dir/log/LoggerStream.cpp.s
-
-base/CMakeFiles/base.dir/log/LoggerWriter.cpp.o: base/CMakeFiles/base.dir/flags.make
-base/CMakeFiles/base.dir/log/LoggerWriter.cpp.o: /tmp/tmp.dgzV3O5sJt/base/log/LoggerWriter.cpp
-base/CMakeFiles/base.dir/log/LoggerWriter.cpp.o: base/CMakeFiles/base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object base/CMakeFiles/base.dir/log/LoggerWriter.cpp.o"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT base/CMakeFiles/base.dir/log/LoggerWriter.cpp.o -MF CMakeFiles/base.dir/log/LoggerWriter.cpp.o.d -o CMakeFiles/base.dir/log/LoggerWriter.cpp.o -c /tmp/tmp.dgzV3O5sJt/base/log/LoggerWriter.cpp
-
-base/CMakeFiles/base.dir/log/LoggerWriter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/base.dir/log/LoggerWriter.cpp.i"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.dgzV3O5sJt/base/log/LoggerWriter.cpp > CMakeFiles/base.dir/log/LoggerWriter.cpp.i
-
-base/CMakeFiles/base.dir/log/LoggerWriter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/log/LoggerWriter.cpp.s"
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/log/LoggerWriter.cpp -o CMakeFiles/base.dir/log/LoggerWriter.cpp.s
+base/CMakeFiles/base.dir/thread/TaskExecutor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/base.dir/thread/TaskExecutor.cpp.s"
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.dgzV3O5sJt/base/thread/TaskExecutor.cpp -o CMakeFiles/base.dir/thread/TaskExecutor.cpp.s
 
 # Object files for target base
 base_OBJECTS = \
 "CMakeFiles/base.dir/utils/Buffer.cpp.o" \
-"CMakeFiles/base.dir/utils/File.cpp.o" \
+"CMakeFiles/base.dir/utils/Logger.cpp.o" \
+"CMakeFiles/base.dir/utils/NoticeCenter.cpp.o" \
 "CMakeFiles/base.dir/utils/Path.cpp.o" \
-"CMakeFiles/base.dir/utils/String.cpp.o" \
-"CMakeFiles/base.dir/utils/Thread.cpp.o" \
 "CMakeFiles/base.dir/utils/TimeClock.cpp.o" \
-"CMakeFiles/base.dir/log/Logger.cpp.o" \
-"CMakeFiles/base.dir/log/LoggerChannel.cpp.o" \
-"CMakeFiles/base.dir/log/LoggerStream.cpp.o" \
-"CMakeFiles/base.dir/log/LoggerWriter.cpp.o"
+"CMakeFiles/base.dir/utils/Util.cpp.o" \
+"CMakeFiles/base.dir/thread/TaskExecutor.cpp.o"
 
 # External object files for target base
 base_EXTERNAL_OBJECTS =
 
 base/libbase.a: base/CMakeFiles/base.dir/utils/Buffer.cpp.o
-base/libbase.a: base/CMakeFiles/base.dir/utils/File.cpp.o
+base/libbase.a: base/CMakeFiles/base.dir/utils/Logger.cpp.o
+base/libbase.a: base/CMakeFiles/base.dir/utils/NoticeCenter.cpp.o
 base/libbase.a: base/CMakeFiles/base.dir/utils/Path.cpp.o
-base/libbase.a: base/CMakeFiles/base.dir/utils/String.cpp.o
-base/libbase.a: base/CMakeFiles/base.dir/utils/Thread.cpp.o
 base/libbase.a: base/CMakeFiles/base.dir/utils/TimeClock.cpp.o
-base/libbase.a: base/CMakeFiles/base.dir/log/Logger.cpp.o
-base/libbase.a: base/CMakeFiles/base.dir/log/LoggerChannel.cpp.o
-base/libbase.a: base/CMakeFiles/base.dir/log/LoggerStream.cpp.o
-base/libbase.a: base/CMakeFiles/base.dir/log/LoggerWriter.cpp.o
+base/libbase.a: base/CMakeFiles/base.dir/utils/Util.cpp.o
+base/libbase.a: base/CMakeFiles/base.dir/thread/TaskExecutor.cpp.o
 base/libbase.a: base/CMakeFiles/base.dir/build.make
 base/libbase.a: base/CMakeFiles/base.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libbase.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libbase.a"
 	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && $(CMAKE_COMMAND) -P CMakeFiles/base.dir/cmake_clean_target.cmake
 	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base.dir/link.txt --verbose=$(VERBOSE)
 

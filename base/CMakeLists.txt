@@ -12,4 +12,4 @@ foreach(SUB_DIR ${SUB_DIR_LIST})
     aux_source_directory(${SUB_DIR} SRC_LIST)
 endforeach()
 
-add_library(base STATIC ${SRC_LIST})
+add_library(base STATIC ${SRC_LIST} utils/Logger.cpp utils/Logger.h utils/Util.cpp utils/Util.h utils/NoticeCenter.cpp utils/NoticeCenter.h utils/Function_traits.h)

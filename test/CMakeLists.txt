@@ -26,10 +26,10 @@
 #project(test)
 
 # 添加测试源文件
-add_executable(test_thread Test_Thread.cpp)
-
+#add_executable(test_thread Test_Thread.cpp Test_List.cpp)
+add_executable(tests Test_Logger.cpp)
 # 链接基础库和 pthread 库
-target_link_libraries(test_thread base pthread)
+target_link_libraries(tests base pthread)
 
 # 添加测试
-add_test(NAME test_Thread COMMAND test_thread)
+add_test(NAME test COMMAND tests)

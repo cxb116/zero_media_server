@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -O3 -std=c++11 -O2 -g -DNDEBUG CMakeFiles/tests.dir/Test_Logger.cpp.o -o tests  ../base/libbase.a -lpthread 

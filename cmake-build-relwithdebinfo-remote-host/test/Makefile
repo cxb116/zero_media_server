@@ -127,42 +127,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/test_thread.dir/rule:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_thread.dir/rule
-.PHONY : test/CMakeFiles/test_thread.dir/rule
+test/CMakeFiles/tests.dir/rule:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/tests.dir/rule
+.PHONY : test/CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
-test_thread: test/CMakeFiles/test_thread.dir/rule
-.PHONY : test_thread
+tests: test/CMakeFiles/tests.dir/rule
+.PHONY : tests
 
 # fast build rule for target.
-test_thread/fast:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/build
-.PHONY : test_thread/fast
+tests/fast:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/tests.dir/build.make test/CMakeFiles/tests.dir/build
+.PHONY : tests/fast
 
-Test_Thread.o: Test_Thread.cpp.o
-.PHONY : Test_Thread.o
+Test_Logger.o: Test_Logger.cpp.o
+.PHONY : Test_Logger.o
 
 # target to build an object file
-Test_Thread.cpp.o:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/Test_Thread.cpp.o
-.PHONY : Test_Thread.cpp.o
+Test_Logger.cpp.o:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/tests.dir/build.make test/CMakeFiles/tests.dir/Test_Logger.cpp.o
+.PHONY : Test_Logger.cpp.o
 
-Test_Thread.i: Test_Thread.cpp.i
-.PHONY : Test_Thread.i
+Test_Logger.i: Test_Logger.cpp.i
+.PHONY : Test_Logger.i
 
 # target to preprocess a source file
-Test_Thread.cpp.i:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/Test_Thread.cpp.i
-.PHONY : Test_Thread.cpp.i
+Test_Logger.cpp.i:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/tests.dir/build.make test/CMakeFiles/tests.dir/Test_Logger.cpp.i
+.PHONY : Test_Logger.cpp.i
 
-Test_Thread.s: Test_Thread.cpp.s
-.PHONY : Test_Thread.s
+Test_Logger.s: Test_Logger.cpp.s
+.PHONY : Test_Logger.s
 
 # target to generate assembly for a file
-Test_Thread.cpp.s:
-	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/Test_Thread.cpp.s
-.PHONY : Test_Thread.cpp.s
+Test_Logger.cpp.s:
+	cd /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/tests.dir/build.make test/CMakeFiles/tests.dir/Test_Logger.cpp.s
+.PHONY : Test_Logger.cpp.s
 
 # Help Target
 help:
@@ -173,10 +173,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... test_thread"
-	@echo "... Test_Thread.o"
-	@echo "... Test_Thread.i"
-	@echo "... Test_Thread.s"
+	@echo "... tests"
+	@echo "... Test_Logger.o"
+	@echo "... Test_Logger.i"
+	@echo "... Test_Logger.s"
 .PHONY : help
 
 

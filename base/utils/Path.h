@@ -7,6 +7,7 @@
 #include <string>
 #include <unistd.h>
 #include <limits.h>
+#include <memory>
 
 using namespace std;
 

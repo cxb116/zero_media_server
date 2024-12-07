@@ -6,7 +6,7 @@
 /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/CMakeFiles/test.dir
 /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/CMakeFiles/edit_cache.dir
 /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/base/CMakeFiles/rebuild_cache.dir
-/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/CMakeFiles/test_thread.dir
+/tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/CMakeFiles/tests.dir
 /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/CMakeFiles/test.dir
 /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/CMakeFiles/edit_cache.dir
 /tmp/tmp.dgzV3O5sJt/cmake-build-relwithdebinfo-remote-host/test/CMakeFiles/rebuild_cache.dir

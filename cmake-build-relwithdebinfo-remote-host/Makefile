@@ -153,17 +153,17 @@ base/fast:
 .PHONY : base/fast
 
 #=============================================================================
-# Target rules for targets named test_thread
+# Target rules for targets named tests
 
 # Build rule for target.
-test_thread: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_thread
-.PHONY : test_thread
+tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests
+.PHONY : tests
 
 # fast build rule for target.
-test_thread/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_thread.dir/build.make test/CMakeFiles/test_thread.dir/build
-.PHONY : test_thread/fast
+tests/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/tests.dir/build.make test/CMakeFiles/tests.dir/build
+.PHONY : tests/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -199,7 +199,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... base"
-	@echo "... test_thread"
+	@echo "... tests"
 	@echo "... zero_media_server"
 	@echo "... main.o"
 	@echo "... main.i"
